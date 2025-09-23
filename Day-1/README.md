@@ -14,8 +14,7 @@ This day is all about building a **strong foundation** with hands-on labs, clear
 3. 🔬 [Lab 1: Simulating a 2-to-1 Multiplexer](#-lab-1-simulating-a-2-to-1-multiplexer)
 4. 📝 [Verilog Code Deep Dive](#-verilog-code-deep-dive)
 5. 🏗 [Introduction to Yosys & Gate Libraries](#-introduction-to-yosys--gate-libraries)
-6. 🧩 [Synthesis Lab with Yosys](#-synthesis-lab-with-yosys)Would you like me to also **add a section called “🖼️ Outputs” at the end** where you can neatly place your waveform screenshot + schematic so readers see results directly without scrolling back?
-
+6. 🧩 [Synthesis Lab with Yosys](#-synthesis-lab-with-yosys)
 7. 🏁 [Key Takeaways](#-key-takeaways)
 
 ---
