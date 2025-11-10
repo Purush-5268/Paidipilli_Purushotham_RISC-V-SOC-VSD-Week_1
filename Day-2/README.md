@@ -58,8 +58,7 @@ sudo apt install gedit
 gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-📸 *(Insert screenshot of opened .lib file here)*
-
+📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/2354d347-79a8-4f6c-939d-5fb1ea5cb286" />
 ---
 
 ## 🏗️ Synthesis Approaches
@@ -71,7 +70,7 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 * Easier debugging & modular flow
 * **Limitation**: fewer cross-module optimizations
 
-📸 *(Insert screenshot of Yosys hierarchy view here)*
+📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/bc8e57aa-ec7d-4c60-b611-6bbeb6788406" />
 
 ### Flattened Synthesis
 
@@ -79,7 +78,7 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 * Allows whole-design optimizations
 * **Limitation**: harder debugging & higher runtime
 
-📸 *(Insert screenshot of flattened netlist here)*
+📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/7f047672-3221-4bf4-90ec-9b5eca1134e3" />
 
 ### Key Differences
 
@@ -130,9 +129,6 @@ module dff_syncres (input clk, input sync_reset, input d, output reg q);
       q <= d;
 endmodule
 ```
-
-📸 *(Add waveforms for reset/set behavior here)*
-
 ---
 
 ## 🖥️ Simulation & Synthesis Workflow
@@ -145,7 +141,7 @@ iverilog dff_asyncres.v tb_dff_asyncres.v
 gtkwave tb_dff_asyncres.vcd
 ```
 
-📸 *(Insert waveform screenshot here)*
+📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/9ca3996b-451a-461e-902d-4a6e2a599523" />
 
 ### Yosys (Synthesis)
 
@@ -160,7 +156,7 @@ show
 write_verilog dff_asyncres_netlist.v
 ```
 
-📸 *(Insert netlist visualization here)*
+📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/ab93db43-f6ef-48fb-9c62-87cff9be3c06" />
 
 ---
 
