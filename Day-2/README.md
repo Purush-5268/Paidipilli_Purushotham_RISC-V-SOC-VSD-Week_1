@@ -70,8 +70,6 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 * Easier debugging & modular flow
 * **Limitation**: fewer cross-module optimizations
 
-📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/bc8e57aa-ec7d-4c60-b611-6bbeb6788406" />
-
 ### Flattened Synthesis
 
 * Flattens all modules into a single netlist
