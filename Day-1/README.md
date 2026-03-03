@@ -154,7 +154,7 @@ endmodule
 
 ## 🧩 Synthesis Lab with Yosys
 
-Before launching Yosys, navigate into the `verilog_files` directory within the cloned workshop folder.
+Before launching Yosys, navigate into the `cd ~/VLSI/sky130RTLDesignAndSynthesisWorkshop` directory within the cloned workshop folder.
 
 ### 🖥 Yosys Flow
 
@@ -163,16 +163,19 @@ Before launching Yosys, navigate into the `verilog_files` directory within the c
 yosys
 
 # Load the technology library
-read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+# read_liberty -lib /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 # Load your design
-read_verilog good_mux.v
+# read_verilog good_mux.v
+read_verilog verilog_files/good_mux.v
 
 # Synthesize the design
 synth -top good_mux
 
 # Technology mapping
-abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+# abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 # Visualize the netlist
 show
