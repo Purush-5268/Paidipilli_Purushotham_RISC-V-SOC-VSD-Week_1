@@ -68,11 +68,29 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 * Easier debugging & modular flow
 * **Limitation**: fewer cross-module optimizations
 
+##### Commands
+```bash
+read_verilog verilog_files/multiple_modules.v
+synth -top multiple_modules
+write_verilog hierarchical_netlist.v
+stat
+show multiple_modules
+```
+
 ### Flattened Synthesis
 
 * Flattens all modules into a single netlist
 * Allows whole-design optimizations
 * **Limitation**: harder debugging & higher runtime
+##### Commands
+```bash
+read_verilog verilog_files/multiple_modules.v
+flatten
+synth -top multiple_modules
+write_verilog flat_netlist.v
+stat
+show
+```
 
 📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/7f047672-3221-4bf4-90ec-9b5eca1134e3" />
 
