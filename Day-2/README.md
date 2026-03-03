@@ -57,8 +57,6 @@ It includes models and libraries describing **timing, power, and process variati
 sudo apt install gedit
 gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-
-📸 <img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/2354d347-79a8-4f6c-939d-5fb1ea5cb286" />
 ---
 
 ## 🏗️ Synthesis Approaches
